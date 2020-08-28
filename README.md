@@ -23,10 +23,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. How would you describe acessibility on the web to someone new to programming?
+  
+  Acessibility on the web is how you make a website usable by everyone. This means multiple things. For one you need to account for all screen sizes, so you should use responsive design to allow for phones, laptops, desktops, and anything else to use your site properly. In addition you need to account for people who have certain impairments, so you need to use semantic HTML, and make sure your color choices are such that everyone can use the site without issue.
+  
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+  First you can use media queries to make sure each screen size has the proper placement of elements on the webpage. Then you can add in percentages for your elements so you now have a reactive design, which is the optimal web page design and will allow for all screen sizes to have the best experience. But before all this you should use semantic HTML, whihc will allow screen readers to properly use the website, and even help yourself understand how you've laid everything out.
+  
 3. How would you explain the concept of a variable to someone new to programming?
+
+  A variable in programming is like a variable in math. It is a letter, or a string of letters / words, that holds some kind of value. In math that could be x holding the value 5, but in programming its expanded, so it could be testVariable holding a value of "hello". It expands past just a single character and numbers, and allows for words and other types of things to be stored. 
+  
 4. What is the purpose of using functions in code?
 
+  Functions mean you don't have to repeat yourself as often in code. Instead of for example doing the same 3 lines over and over when needed, you can make a function with those 3 lines of code, and call that instead. Functions can even call other functions, and so I'd say the main purpose is to make your code shorter overall, and more modular. And as a result it will be more readable and managable for bigger projects and such. 
+  
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
