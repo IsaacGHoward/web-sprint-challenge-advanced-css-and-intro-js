@@ -341,10 +341,11 @@ function getHTML(/* Code here */){
 
 /* STRETCH 2: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 function randomize(artists){
+    var theArtists = [...artists];
     var randomizedArtists = [];
-    for(var q=artists.length;q>0;q--){
+    for(var q=theArtists.length;q>0;q--){
       var rand = Math.floor(Math.random() * q)
-      randomizedArtists.push(artists.splice(rand,1)[0]);
+      randomizedArtists.push(theArtists.splice(rand,1)[0]);
     }
     return(randomizedArtists);
 
